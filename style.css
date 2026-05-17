@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #60a5fa;
+    font-size: 20px;
+}
+
+.card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #93c5fd;
+}
