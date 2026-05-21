@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="side-nav" aria-label="Primary navigation">
+        <a class="nav-brand" href="index.html">LJK</a>
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="gaming.html">Gaming with Me</a>
+        <a class="nav-link" href="blog.html">Blog</a>
+    </nav>
+
     <div class="container">
         <h1>Low JianKhai</h1>
 
@@ -21,18 +29,28 @@
 
         <h2>Projects</h2>
 
-        <div class="card">
-            <h3>To be added</h3>
-            <p>
-                To be added...
-            </p>
-        </div>
+        <div class="accordion">
+            <details class="accordion-item" open>
+                <summary>
+                    <span>Workflow Systems</span>
+                    <span class="summary-meta">ASP.NET Core, EF Core, SQL Server</span>
+                </summary>
+                <p>
+                    Internal tools and business workflows designed to keep data organized,
+                    reduce manual work, and support day-to-day operations.
+                </p>
+            </details>
 
-        <div class="card">
-            <h3>To be added</h3>
-            <p>
-                To be added...
-            </p>
+            <details class="accordion-item">
+                <summary>
+                    <span>Web Utilities</span>
+                    <span class="summary-meta">JavaScript, HTML, CSS</span>
+                </summary>
+                <p>
+                    Focused browser-based tools and lightweight interfaces built for clarity,
+                    speed, and practical use.
+                </p>
+            </details>
         </div>
 
         <h2>Links</h2>
