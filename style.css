@@ -145,12 +145,19 @@ h1 {
 }
 
 .accordion-item p {
-    border-top: 1px solid #374151;
     color: #d1d5db;
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0;
-    padding: 18px 20px 20px;
+    padding: 14px 20px;
 }
+
+    .accordion-item p:first-of-type {
+        padding-top: 20px;
+    }
+
+    .accordion-item p:last-of-type {
+        padding-bottom: 24px;
+    }
 
 .post-list {
     margin-top: 20px;
